@@ -318,7 +318,7 @@ class LogisticRegressor:
         - The sigmoid of z.
         """
 
-        # TODO: Implement the sigmoid function to convert the logits into probabilities
+        #TODO: Implement the sigmoid function to convert the logits into probabilities
         sigmoid_value =  1/(1+np.exp(-z))
 
         return sigmoid_value
